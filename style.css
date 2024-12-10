@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+:root[data-theme="color-a"] {
+    --color-main: pink;
+    --color-sub: yellow;
+    --color-text: #000;
+}
+
+:root[data-theme="color-b"] {
+    --color-main:  purple;
+    --color-sub: violet;
+    --color-text: #000;
+}
+
+:root[data-theme="color-c"] {
+    --color-main: navy;
+    --color-sub: lightblue;
+    --color-text: #000;
+}
+
+
+body {
+    background-color: var(--color-main);
+    color: var(--color-text);
+}
+
+p {
+    background-color: var(--color-sub);
+}
